@@ -1478,7 +1478,7 @@ def screeplot(
                 n_elbows = show_elbow
             elb_index = _index_of_elbow(D, n_elbows)
             if elb_index < len(y):
-                plt.plot(elb_index, y[elb_index], 'rx', markersize=20)
+                plt.plot(elb_index, y[elb_index], "rx", markersize=20)
         plt.title(title)
         plt.xlabel(xlabel)
         plt.ylabel(ylabel)
